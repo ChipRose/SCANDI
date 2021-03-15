@@ -425,7 +425,7 @@ body p {
 
 .container {
   max-width: 1400px;
-  min-width: 400px;
+  min-width: 500px;
   margin: 0 auto;
   background: #efe6e4;
 }
