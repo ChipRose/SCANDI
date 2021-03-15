@@ -355,9 +355,7 @@ body p {
   .portfolio__img {
     max-width: 100%;
     padding: 0;
-  }
-  .portfolio__img img {
-    max-width: 100%;
+    overflow: hidden;
   }
   .portfolio__text {
     max-width: 100%;
