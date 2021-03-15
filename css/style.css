@@ -855,8 +855,8 @@ body p {
 
 .app__map {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 490px;
-          flex: 0 1 490px;
+      -ms-flex: 0 1 500px;
+          flex: 0 1 500px;
 }
 
 .app__map iframe {
@@ -869,7 +869,7 @@ body p {
 }
 
 .app__form {
-  max-width: 490px;
+  max-width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
