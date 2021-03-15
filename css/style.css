@@ -358,7 +358,7 @@ body p {
     padding: 0 20px;
   }
   .portfolio__row {
-    row-gap: 10px;
+    margin: 5px 0;
   }
   .portfolio__img {
     padding: 0;
@@ -390,7 +390,7 @@ body p {
             align-items: center;
   }
   .app__form {
-    padding: 50px 0 50px 0;
+    padding: 50px 20px 50px 20px;
   }
   .app__title, .app__text {
     text-align: center;
