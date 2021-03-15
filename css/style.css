@@ -486,8 +486,8 @@ body p {
 }
 
 /* ---------------------------=ПЕРВЫЙ СЛАЙД=--------------------------- */
-.head .container {
-  background: url("../../img/header/header.jpg") center/cover no-repeat;
+header .container {
+  background: url("../img/header/header.jpg") center/cover no-repeat;
 }
 
 .topslide {
