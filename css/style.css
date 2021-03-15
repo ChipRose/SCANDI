@@ -362,7 +362,7 @@ body p {
   }
   .portfolio__img {
     padding: 0;
-    width: 98%;
+    width: 100%;
     overflow: hidden;
   }
   .portfolio__text {
