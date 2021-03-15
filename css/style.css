@@ -162,6 +162,11 @@ body p {
         -ms-flex: 0 1 528px;
             flex: 0 1 528px;
   }
+  .portfolio__row {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 26px;
+  }
   .feedback__row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -352,13 +357,15 @@ body p {
   .title {
     padding: 0 20px;
   }
+  .portfolio__row {
+    row-gap: 10px;
+  }
   .portfolio__img {
-    max-width: 100%;
     padding: 0;
+    width: 98%;
     overflow: hidden;
   }
   .portfolio__text {
-    max-width: 100%;
     padding: 35px 35px 0 35px;
   }
   .portfolio__title {
@@ -637,7 +644,7 @@ body p {
 
 .portfolio__img img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .portfolio__text {
