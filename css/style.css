@@ -573,6 +573,7 @@ body p {
 }
 
 .about__img img {
+  display: block;
   max-width: 100%;
 }
 
@@ -713,7 +714,8 @@ body p {
   row-gap: 10px;
 }
 
-.team__img {
+.team__img img {
+  display: block;
   max-width: 100%;
 }
 
