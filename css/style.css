@@ -359,14 +359,11 @@ body p {
         flex-wrap: wrap;
   }
   .about__img {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 444px;
-            flex: 0 1 444px;
+    width: 100%;
+    overflow: hidden;
   }
   .about__text {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 444px;
-            flex: 0 1 444px;
+    width: 100%;
     padding: 0 10px;
   }
   .title {
