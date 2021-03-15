@@ -319,7 +319,7 @@ body p {
     max-width: none;
   }
   .top {
-    padding: 50px 50px 50px 50px;
+    padding: 50px 20px 50px 20px;
   }
   .top__title {
     max-width: 100%;
@@ -330,6 +330,7 @@ body p {
     text-align: center;
   }
   .top__button {
+    display: block;
     margin: 0 auto;
   }
   .about__row {
@@ -424,6 +425,7 @@ body p {
 
 .container {
   max-width: 1400px;
+  min-width: 400px;
   margin: 0 auto;
   background: #efe6e4;
 }
