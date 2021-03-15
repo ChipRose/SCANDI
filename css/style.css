@@ -340,13 +340,13 @@ body p {
   }
   .about__img {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+        -ms-flex: 0 0 444px;
+            flex: 0 0 444px;
   }
   .about__text {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 450px;
-            flex: 0 1 450px;
+        -ms-flex: 0 1 444px;
+            flex: 0 1 444px;
     padding: 0 10px;
   }
   .title {
