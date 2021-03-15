@@ -252,8 +252,8 @@ body p {
   }
   .about__img {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 444px;
-            flex: 0 0 444px;
+        -ms-flex: 0 1 444px;
+            flex: 0 1 444px;
   }
   .about__text {
     -webkit-box-flex: 0;
@@ -360,8 +360,8 @@ body p {
   }
   .about__img {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 444px;
-            flex: 0 0 444px;
+        -ms-flex: 0 1 444px;
+            flex: 0 1 444px;
   }
   .about__text {
     -webkit-box-flex: 0;
@@ -658,7 +658,7 @@ header .container {
 
 .portfolio__img img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 .portfolio__text {
