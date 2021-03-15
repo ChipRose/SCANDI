@@ -357,11 +357,9 @@ body p {
   .title {
     padding: 0 20px;
   }
-  .portfolio__row {
-    margin: 5px 0;
-  }
   .portfolio__img {
     padding: 0;
+    margin: 5px 0;
     width: 100%;
     overflow: hidden;
   }
@@ -384,13 +382,12 @@ body p {
   .app__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    row-gap: 20px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .app__form {
-    padding: 50px 20px 50px 20px;
+    padding: 50px 10px 50px 10px;
   }
   .app__title, .app__text {
     text-align: center;
