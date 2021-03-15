@@ -218,6 +218,12 @@ body p {
   .footer__row {
     padding: 37px 100px;
   }
+  .button {
+    width: 309.14px;
+  }
+  .button a {
+    width: 309.14px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -316,6 +322,12 @@ body p {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 37px 50px;
+  }
+  .button {
+    width: 200px;
+  }
+  .button a {
+    width: 200px;
   }
 }
 
@@ -543,7 +555,6 @@ body p {
 }
 
 .button {
-  width: 309.14px;
   height: 74px;
   background: #cc8b86;
   font-size: 20px;
@@ -555,7 +566,6 @@ body p {
 
 .button a {
   display: block;
-  width: 309.14px;
   height: 74px;
 }
 
