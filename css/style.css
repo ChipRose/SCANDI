@@ -323,6 +323,9 @@ body p {
   .container {
     max-width: none;
   }
+  .topslide {
+    background: rgba(239, 230, 228, 0.7);
+  }
   .top {
     padding: 50px 20px 50px 20px;
   }
@@ -427,7 +430,7 @@ body p {
 
 .container {
   max-width: 1400px;
-  min-width: 500px;
+  min-width: 350px;
   margin: 0 auto;
   background: #efe6e4;
 }
@@ -470,8 +473,13 @@ body p {
   line-height: 30px;
 }
 
+/* ---------------------------=ПЕРВЫЙ СЛАЙД=--------------------------- */
 .head .container {
-  background: url("../img/header/header.jpg") center/cover no-repeat;
+  background: url("../../img/header/header.jpg") center/cover no-repeat;
+}
+
+.topslide {
+  max-height: 100%;
 }
 
 /* -------------------------------=МЕНЮ=------------------------------- */
