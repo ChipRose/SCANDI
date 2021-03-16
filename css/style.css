@@ -167,6 +167,9 @@ body p {
             column-gap: 20px;
     row-gap: 26px;
   }
+  .portfolio__text {
+    padding: 86px 35px 0 35px;
+  }
   .feedback__row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -276,6 +279,10 @@ body p {
     width: 45px;
     height: 45px;
   }
+  .feedback__img {
+    width: 100%;
+    overflow: hidden;
+  }
   .feedback__button:first-of-type a img {
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
@@ -370,13 +377,12 @@ body p {
     padding: 0 20px;
   }
   .portfolio__img {
-    padding: 0;
     margin: 5px 0;
-    width: 100%;
     overflow: hidden;
   }
   .portfolio__text {
-    padding: 35px 35px 0 35px;
+    padding: 10px 10px 0 10px;
+    text-align: center;
   }
   .portfolio__title {
     text-align: center;
@@ -387,6 +393,10 @@ body p {
   }
   .team__text p {
     text-align: center;
+  }
+  .feedback__img {
+    width: 100%;
+    overflow: hidden;
   }
   .app {
     margin: 10px 0 0 0;
@@ -417,6 +427,9 @@ body p {
             justify-content: center;
     padding: 37px 20px;
   }
+  .footer__text {
+    text-align: center;
+  }
 }
 
 /* --------------------------------Основной стиль------------------------------- */
@@ -439,9 +452,9 @@ body p {
 
 .container {
   max-width: 1400px;
-  min-width: 340px;
   margin: 0 auto;
   background: #efe6e4;
+  overflow: hidden;
 }
 
 .upper {
@@ -664,12 +677,11 @@ header .container {
   position: absolute;
   z-index: 100;
   top: 0;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   background: rgba(100, 72, 69, 0.8);
   background-clip: unset;
   overflow: hidden;
-  padding: 86px 35px 0 35px;
 }
 
 .portfolio__img:first-child:hover .portfolio__text {
@@ -835,8 +847,9 @@ header .container {
   margin: 0 0 32px 0;
 }
 
-.feedback__img {
-  margin: 10px;
+.feedback__img img {
+  display: block;
+  max-width: 100%;
 }
 
 .feedback__button:first-of-type a {
