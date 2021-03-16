@@ -828,18 +828,14 @@ header .container {
 
 .feedback__col:nth-of-type(even) {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 30%;
-          flex: 0 1 30%;
+      -ms-flex: 0 1 407px;
+          flex: 0 1 407px;
 }
 
 .feedback__col:nth-of-type(odd) {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 30%;
-          flex: 0 1 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  row-gap: 20px;
+      -ms-flex: 0 1 407px;
+          flex: 0 1 407px;
 }
 
 .feedback__text p {
