@@ -394,10 +394,6 @@ body p {
   .team__text p {
     text-align: center;
   }
-  .feedback__img {
-    width: 100%;
-    overflow: hidden;
-  }
   .app {
     margin: 10px 0 0 0;
   }
