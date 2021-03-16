@@ -274,6 +274,7 @@ body p {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 45px;
             flex: 0 0 45px;
+    margin: 3px 0;
   }
   .feedback__button a {
     width: 45px;
