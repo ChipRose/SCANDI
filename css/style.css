@@ -833,6 +833,9 @@ header .container {
 }
 
 .feedback__col:nth-of-type(odd) {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
