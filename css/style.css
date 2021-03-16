@@ -321,6 +321,9 @@ body p {
   .app__form {
     padding: 50px 0 50px 0;
   }
+  .app__map {
+    padding: 0 0 50px 0;
+  }
   .buttonlow {
     margin: 36px 0 0 0;
   }
@@ -842,6 +845,10 @@ header .container {
   margin: 0 0 32px 0;
 }
 
+.feedback__img {
+  margin: 5px 0;
+}
+
 .feedback__img img {
   display: block;
   max-width: 100%;
@@ -871,6 +878,7 @@ header .container {
 
 /*--------------------------=ОСТАВИТЬ ЗАЯВКУ=-------------------------- */
 .app__row {
+  margin: 10px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
